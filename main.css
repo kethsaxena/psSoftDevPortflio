@@ -1,0 +1,43 @@
+*{box-sizing:border-box}
+
+
+body {
+    font-family: "Open Sans",
+    sans-serif; 
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  
+  
+
+header {
+    padding: 8% 0;
+    border-width: 5px;
+    border-style: solid;
+
+
+  }
+
+  
+section {
+    min-height: 200px;
+    padding: 6% 0;
+    background-color: #bbb;
+  }
+
+  
+section:nth-child(even) {
+    background-color: #ddd;
+  }
+  
+
+  
+footer {
+    border-width: 3px;
+    border-style: solid;
+
+
+  }
